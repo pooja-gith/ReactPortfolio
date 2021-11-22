@@ -14,10 +14,10 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_tsxh7g3",
+        "template_9t9ji7n",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "user_WIAIHP86keSGF2pnAYBXt"
       )
       .then(
         (result) => {
@@ -38,12 +38,15 @@ const Contact = () => {
           <h1 className="c-title">Let's discuss your project</h1>
           <div className="c-info">
             <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
+              <img src={Phone} 
+              alt="" 
+              className="c-icon" 
+              />
               +32 465546987
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Email} alt="" />
-              contact@Pooja.dev
+              poojasirmour@gmail.com
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
@@ -54,7 +57,7 @@ const Contact = () => {
         <div className="c-right">
           <p className="c-desc">
             <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            freelancing if the right project comes along me.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
